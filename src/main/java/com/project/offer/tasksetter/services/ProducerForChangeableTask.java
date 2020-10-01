@@ -1,7 +1,6 @@
 package com.project.offer.tasksetter.services;
 
 
-import com.project.offer.tasksetter.entities.SpamTask;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.kafka.core.KafkaTemplate;

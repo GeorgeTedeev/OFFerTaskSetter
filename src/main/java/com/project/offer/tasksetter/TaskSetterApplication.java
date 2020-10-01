@@ -25,7 +25,7 @@ public class TaskSetterApplication {
     public void init(){
         SpamTask spamTask = new SpamTask("MARKETING", "New Product");
         taskSetterService.setProducerService(spamTask);
-        producerForChangeableTask.send("task has been changed");
+//        producerForChangeableTask.send("task has been changed");
     }
 
 
